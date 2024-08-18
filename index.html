@@ -1,0 +1,597 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="index.css">
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet"  >
+  </head>
+  <body>
+    <!--header-->
+    <nav class="navbar navbar-expand-lg  navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="imagenes/avianca.jpg" alt="..."></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Página Principal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Aeropuertos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Mapa</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Noticias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-Aerolineas" href="#">Aerolineas</a>
+            </li>        
+          </ul>      
+        </div>
+      </div>
+    </nav>    
+    <!--fin header-->
+    <!--carrusel-->
+    <div id="principal">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/logo.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/avion1.jpeg" class="d-block w-100" alt="...">
+          </div>      
+        <div class="carousel-item">
+          <img src="imagenes/avion2.jpg" class="d-block w-100" alt="...">
+        </div>
+      </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <div id="contenido">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-md-6 offset-md-6 text-center text-md-end">
+            <H1>Avianca</H1>
+            <p class="d-none d-md-block">Avianca, una de las aerolíneas más emblemáticas de América Latina, se ha destacado por ofrecer una experiencia de vuelo que combina tradición, innovación y un enfoque en el servicio al cliente. Con una historia que se remonta a 1919, Avianca es la segunda aerolínea más antigua del mundo en operación continua, lo que le otorga un prestigio único en la industria de la aviación.</p>
+        <a href="#" class="btn btn-outline-light">Comodidad De Viaje</a>
+        <button type="button" class="btn btn-primary">Comprar Vuelo</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div> 
+    <!--Fin carrusel-->
+    <!--Acordeón-->
+</br>
+</br>
+<div class="accordion accordion-flush" id="accordionFlushExample">
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        Clase Económica (Baja):
+      </button>
+    </h2>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"><strong>Vuela con comodidad y a precios accesibles.</strong> En la Clase Económica de Avianca. Disfruta de nuestros modernos aviones con asientos diseñados para tu confort y un servicio amable que te acompañará a lo largo de tu viaje. Relájate con nuestro entretenimiento a bordo y elige entre una variedad de snacks y bebidas para hacer tu vuelo aún más placentero. ¡Viaja con nosotros y llega a tu destino sin comprometer tu presupuesto! (Baja).
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        Clase Económica Plus (Media):
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"><strong>Eleva tu experiencia de vuelo.</strong> Con nuestra Clase Económica Plus. Disfruta de mayor espacio para tus piernas, asientos más cómodos y una selección de alimentos y bebidas de cortesía. Con pantallas personales y una amplia oferta de entretenimiento, tu vuelo se convertirá en una experiencia más placentera y productiva. Además, tendrás la ventaja de llevar más equipaje sin preocupaciones. ¡Aprovecha este equilibrio perfecto entre comodidad y valor en tu próximo viaje! (Media).
+      </div>
+    </div>
+  </div>
+  <div class="accordion-item">
+    <h2 class="accordion-header">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Clase Ejecutiva (Premium):
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"><strong>Descubre el lujo de volar en nuestra Clase Ejecutiva.</strong> Disfruta de la exclusividad y el confort con asientos que se convierten en camas, servicio gourmet, y una selección de vinos finos. Relájate en nuestras salas VIP antes de tu vuelo y disfruta de un embarque prioritario. Con pantallas de alta definición y entretenimiento premium, tu viaje será tan placentero como tu destino. ¡Volar nunca ha sido tan elegante y cómodo! (Premium).
+      </div>
+    </div>
+  </div>
+</div>
+<!--fin Acordeón-->
+    <!--Asientos-->
+</br>
+</br>
+    <div class="row">
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="imagenes/asiento1.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Clase Económica (Baja)</h5>
+            <span class="badge text-bg-primary">Descubre el mundo sin romper el bolsillo.</span>
+            <p class="card-text">Viaja cómodamente con nuestra Clase Económica, donde el confort y el ahorro se encuentran. Disfruta de un servicio eficiente y confiable que te lleva a tu destino sin complicaciones. ¡Reserva hoy y empieza tu aventura!</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="imagenes/asiento2.jpeg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Clase Económica Plus (Media)</h5>
+            <span class="badge text-bg-secondary">Más comodidad, más beneficios.</span>
+            <p class="card-text">Eleva tu experiencia de viaje con nuestra Clase Económica Plus. Disfruta de asientos más espaciosos, prioridad de embarque, y más comodidades para hacer de tu viaje una experiencia aún más agradable. Perfecto para aquellos que desean un poco más sin sacrificar la economía.</p>          
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4 mb-4">
+        <div class="card">
+          <img src="imagenes/asiento3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Clase Ejecutiva (Premium)</h5>
+            <span class="badge text-bg-success">Viaja con estilo y lujo incomparables.</span>
+            <p class="card-text">Nuestra Clase Ejecutiva te ofrece una experiencia de viaje de primera clase, con asientos completamente reclinables, acceso a salones VIP, y un servicio personalizado que supera todas tus expectativas. Relájate y disfruta de cada momento en el aire. ¡Reserva tu asiento en Clase Ejecutiva y transforma tu vuelo en una experiencia de lujo!</p>
+          </div>
+        </div>
+      </div>
+      <!--Fin Asientos-->
+      <!--Calificación-->
+      <label for="customRange2" class="form-label">En que asiento te gustaría viajar</label>
+      <div class="custom-slider-container">
+        <input type="range" class="form-range" min="1" max="3" id="customRange2" value="1" list="tickmarks">
+        <div class="tick">
+          <span>1</span>
+          <span>2</span>
+          <span>3</span>
+        </div>
+      </div>
+      <!--fin Calificación-->
+    <!--Vuelos-->
+    <section id="Vuelos" class="mt-4">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center text-uppercase">
+            <small>Vuelo disponibles</small>
+            <h1>Promoción Desde San Pedro Sula</h1>
+            <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/san salvador.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">San Salvador</h5>
+                  <span class="badge text-bg-primary">Por trayecto desde USD 112.</span>
+                  <p class="card-text">Vuela a San Salvador y descubre una capital dinámica donde la modernidad se fusiona con la rica historia de El Salvador. Rodeada de imponentes volcanes, esta ciudad ofrece una vibrante vida urbana, mercados coloridos, y una deliciosa gastronomía local. Explora sus museos, plazas y el impresionante Parque Nacional El Boquerón, todo en un solo lugar.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/san jose costa rica.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">San José Costa Rica</h5>
+                  <span class="badge text-bg-secondary">Por trayecto desde USD 119.</span>
+                  <p class="card-text">Viaja a San José, el corazón de Costa Rica, y sumérgete en un destino lleno de cultura, arte y naturaleza exuberante. Desde sus museos y teatros hasta sus pintorescos mercados, esta ciudad es el punto de partida perfecto para explorar la biodiversidad del país. No te pierdas el animado ambiente de sus barrios y la calidez de su gente.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/ciudad de guatemala.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ciudad De Guatemala</h5>
+                  <span class="badge text-bg-success">Por trayecto desde USD 128.</span>
+                  <p class="card-text">Descubre Ciudad de Guatemala, la vibrante capital de Guatemala, donde lo antiguo y lo moderno se encuentran en perfecta armonía. Pasea por sus avenidas llenas de historia, explora sus museos y disfruta de su diversa oferta cultural. Desde su impresionante arquitectura colonial hasta su vida nocturna, Ciudad de Guatemala te sorprenderá en cada esquina.</p>    
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/cartagenaa.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cartagena</h5>
+                  <span class="badge text-bg-danger">Por trayecto desde USD 154.</span>
+                  <p class="card-text">Vuela a Cartagena, la joya del Caribe colombiano, y sumérgete en una ciudad llena de historia, romance y belleza natural. Recorre sus calles empedradas y coloridas, visita sus fortalezas y relájate en sus paradisíacas playas. Cartagena es el destino perfecto para disfrutar de una mezcla única de cultura y mar.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/miami.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Miami</h5>
+                  <span class="badge text-bg-warning">Por trayecto desde USD 157.</span>
+                  <p class="card-text">Escápate a Miami, una ciudad donde el sol brilla todo el año y la diversión nunca termina. Con sus icónicas playas, vibrante vida nocturna y una mezcla única de culturas, Miami es el destino ideal para quienes buscan relajarse y disfrutar. Desde el Art Deco de South Beach hasta los modernos distritos de arte, Miami lo tiene todo.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/bogota.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Bogotá</h5>
+                  <span class="badge text-bg-info">Por trayecto desde USD 160.</span>
+                  <p class="card-text">Descubre Bogotá, la capital cultural de Colombia, una ciudad donde la historia, la modernidad y la innovación se unen para ofrecer una experiencia única. Desde el histórico barrio de La Candelaria hasta sus modernos rascacielos, Bogotá es un destino lleno de contrastes, rica gastronomía y un ambiente artístico vibrante.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/medellin.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Medellín</h5>
+                  <span class="badge text-bg-dark">Por trayecto desde USD 165.</span>
+                  <p class="card-text">Vuela a Medellín, la ciudad de la eterna primavera, famosa por su clima agradable, su transformación urbana y su espíritu innovador. Explora sus parques, museos y el icónico Metrocable, y descubre por qué esta ciudad ha sido reconocida como una de las más innovadoras del mundo. Medellín te espera con su calidez y hospitalidad.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/cali.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Cali</h5>
+                  <span class="badge text-bg-primary">Por trayecto desde USD 165.</span>
+                  <p class="card-text">Disfruta de Cali, la capital mundial de la salsa, donde la música, el baile y la alegría son parte de la vida diaria. Vive la emoción de sus vibrantes ritmos, recorre sus parques y avenidas, y sumérgete en la cultura caleña. Cali es el lugar perfecto para quienes buscan una experiencia llena de energía y diversión.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/guayaquiil.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Guayaquil</h5>
+                  <span class="badge text-bg-secondary">Por trayecto desde USD 172.</span>
+                  <p class="card-text">Explora Guayaquil, la perla del Pacífico ecuatoriano, una ciudad que combina la modernidad con una rica herencia histórica. Pasea por su icónico Malecón 2000, visita el barrio de Las Peñas y disfruta de la deliciosa gastronomía local. Guayaquil es el destino ideal para quienes buscan una mezcla de historia, cultura y paisajes impresionantes.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/Mexico.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Ciudad De México</h5>
+                  <span class="badge text-bg-success">Por trayecto desde USD 175.</span>
+                  <p class="card-text">Vive la energía de Ciudad de México, una metrópolis vibrante y diversa, llena de historia, cultura y tradición. Desde las antiguas pirámides de Teotihuacán hasta los modernos museos y galerías, esta ciudad ofrece una experiencia única en cada esquina. Disfruta de su rica gastronomía, su arte y su vida nocturna incomparable.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/quito.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Quito</h5>
+                  <span class="badge text-bg-danger">Por trayecto desde USD 184.</span>
+                  <p class="card-text">Descubre Quito, la joya colonial de los Andes, una ciudad que combina una arquitectura impresionante con paisajes naturales espectaculares. Recorrer sus calles adoquinadas es como viajar en el tiempo, con sus iglesias y plazas que cuentan historias de siglos pasados. Quito te espera con su belleza histórica y su cálida hospitalidad.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/lima.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Lima</h5>
+                  <span class="badge text-bg-warning">Por trayecto desde USD 193.</span>
+                  <p class="card-text">Vuela a Lima, la capital gastronómica de América, y déjate conquistar por su mezcla perfecta de historia, cultura y sabores únicos. Desde el encanto de su centro histórico hasta la sofisticación de sus modernos barrios, Lima es un destino que te sorprenderá. Disfruta de su reconocida cocina, sus museos y la impresionante vista del océano Pacífico.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/dallas.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Dallas</h5>
+                  <span class="badge text-bg-info">Por trayecto desde USD 219.</span>
+                  <p class="card-text">Explora Dallas, una ciudad dinámica en el corazón de Texas, donde la cultura moderna se une a las tradiciones del viejo oeste. Desde sus rascacielos en el centro hasta su vibrante escena artística, Dallas ofrece una experiencia diversa y emocionante. Visita sus museos, disfruta de su gastronomía y sumérgete en la auténtica cultura tejana.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/washingtoon.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Washington</h5>
+                  <span class="badge text-bg-dark">Por trayecto desde USD 295.</span>
+                  <p class="card-text">Descubre Washington, D.C., la capital de Estados Unidos, hogar de monumentos icónicos, museos de clase mundial y una rica historia. Recorre la majestuosa Avenida Pennsylvania, visita la Casa Blanca y explora los numerosos memoriales y museos que cuentan la historia de la nación. Washington, D.C. es el destino ideal para los amantes de la historia y la cultura.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/new york.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">New York</h5>
+                  <span class="badge text-bg-primary">Por trayecto desde USD 295.</span>
+                  <p class="card-text">Vuela a Nueva York, la ciudad que nunca duerme, y sumérgete en su energía inigualable. Desde la emblemática Estatua de la Libertad hasta las luces de Times Square, Nueva York ofrece infinitas posibilidades. Disfruta de su vibrante vida cultural, sus tiendas de clase mundial y su gastronomía diversa en esta ciudad global.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/santiago de chile.jpeg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Santiago De Chile</h5>
+                  <span class="badge text-bg-secondary">Por trayecto desde USD 317.</span>
+                  <p class="card-text">Conoce Santiago, la capital moderna de Chile, rodeada por la majestuosa cordillera de los Andes. Esta ciudad combina un desarrollo económico dinámico con una rica historia y cultura. Disfruta de su variada gastronomía, sus museos y la proximidad a viñedos y estaciones de esquí que hacen de Santiago un destino único.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/sao paulo.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">São Paulo</h5>
+                  <span class="badge text-bg-success">Por trayecto desde USD 352.</span>
+                  <p class="card-text">Explora São Paulo, la metrópolis vibrante de Brasil, donde la diversidad cultural y la vida urbana se encuentran en cada esquina. Desde su impresionante skyline hasta sus galerías de arte y restaurantes de renombre, São Paulo es un destino que ofrece una experiencia cosmopolita única. Disfruta de la energía de esta ciudad que nunca para.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/buenos aires.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Buenos Aires</h5>
+                  <span class="badge text-bg-danger">Por trayecto desde USD 352.</span>
+                  <p class="card-text">Descubre Buenos Aires, la elegante capital de Argentina, donde el tango, la arquitectura europea y la rica vida cultural crean un ambiente inigualable. Pasea por sus avenidas arboladas, visita sus cafés históricos y disfruta de su vibrante escena artística. Buenos Aires es un destino que te cautivará con su encanto y sofisticación.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/los angeles.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Los Ángeles</h5>
+                  <span class="badge text-bg-warning">Por trayecto desde USD 352.</span>
+                  <p class="card-text">Vuela a Los Ángeles, la capital mundial del entretenimiento, donde el sol, las playas y la diversidad cultural te esperan. Desde Hollywood hasta Santa Mónica, esta ciudad ofrece una amplia variedad de experiencias para todos los gustos. Descubre su escena artística, disfruta de su clima cálido y sumérgete en el estilo de vida californiano.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/madrid.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Madrid</h5>
+                  <span class="badge text-bg-info">Por trayecto desde USD 594.</span>
+                  <p class="card-text">Visita Madrid, la vibrante capital de España, donde la historia, la modernidad y una vida nocturna incomparable se encuentran en perfecta armonía. Pasea por sus majestuosas plazas, disfruta de su rica gastronomía y explora sus museos de clase mundial. Madrid es una ciudad que te invita a disfrutar cada momento.</p>         
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card">
+                <img src="imagenes/barcelona.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Barcelona</h5>
+                  <span class="badge text-bg-dark">Por trayecto desde USD 628.</span>
+                  <p class="card-text">Explora Barcelona, la joya del Mediterráneo, famosa por su arquitectura única, sus playas y su ambiente cosmopolita. Desde las obras maestras de Gaudí hasta sus encantadoras calles, Barcelona ofrece una experiencia cultural y visual inigualable. Disfruta de su gastronomía, su arte y el mar en esta ciudad vibrante y acogedora.</p>         
+                </div>
+              </div>
+            </div>
+            </section>
+            </div>
+          </div>
+    <!--fin Vuelos-->
+    <!--Calificación-->
+    <label for="customRange2" class="form-label">Califíca el servicio de viaje</label>
+<div class="slider-container">
+  <input type="range" class="form-range" min="0" max="5" id="customRange2" value="0" list="tickmarks">
+  <div class="ticks">
+    <span>0</span>
+    <span>1</span>
+    <span>2</span>
+    <span>3</span>
+    <span>4</span>
+    <span>5</span>
+  </div>
+</div>
+<!--fin Calificación-->
+<!--Dirección-->
+</br>
+</br>
+    <div class="card w-50 mx-auto">
+      <img src="imagenes/Dirección.jpg" class="altura" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">Cómo llegar</h5>
+        <p class="card-text">Para llegar al Aeropuerto Internacional Ramón Villeda Morales desde el centro de San Pedro Sula, toma la Carretera CA-13 en dirección este hacia La Lima. Después de unos 12 kilómetros, sigue las señales que indican el desvío hacia el aeropuerto, aproximadamente 3 kilómetros antes de La Lima. El tiempo estimado de viaje es dependiendo del lugar que te encuentres.</p>
+        <a href="#" class="btn btn-warning" style="width: 100%;">Inciar indicaciones</a>
+      </div>
+    </div>    
+<!--fin Dirección-->
+    <!-- Misión y Visión -->
+</br>
+<section id="mision" class="mt-4">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 mb-4">
+        <div class="caja">
+          <h1>Misión</h1>
+          <p>La misión de Avianca se centra en ser un pilar esencial en la industria del transporte aéreo, ofreciendo un servicio que no solo cumple con las expectativas de sus pasajeros, sino que las supera de manera constante. Su propósito principal es garantizar que cada viaje se realice con la máxima seguridad, puntualidad y comodidad, lo cual se logra a través de un equipo altamente capacitado y comprometido con la excelencia operativa. Avianca busca conectar a sus clientes con el mundo de una manera eficiente y placentera, creando experiencias de viaje memorables que refuercen la lealtad de sus pasajeros. Además, la aerolínea se compromete a ser un motor de desarrollo para las comunidades en las que opera, aportando al crecimiento económico y social de la región, y siempre actuando con un fuerte sentido de responsabilidad social y ambiental, manteniendo a su vez un enfoque innovador que le permite adaptarse a las cambiantes necesidades del mercado.</p>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-12 mb-4">
+        <div class="caja1">
+          <h1>Visión</h1>
+          <p>La visión de Avianca es ambiciosa y clara: posicionarse como la aerolínea líder en América Latina, reconocida no solo por la calidad de su servicio, sino también por su capacidad de innovación y su enfoque en la sostenibilidad. Avianca aspira a ser la primera opción para los viajeros que buscan una experiencia de vuelo que combine la calidez del servicio con la eficiencia y tecnología de vanguardia. Para lograrlo, la aerolínea está comprometida con la modernización continua de su flota, la implementación de prácticas sostenibles que minimicen su impacto ambiental, y la creación de alianzas estratégicas que le permitan expandir su red de rutas y mejorar la conectividad en la región. En su visión a largo plazo, Avianca se ve a sí misma como un actor global en la industria aérea, con una sólida presencia en los mercados internacionales, manteniendo siempre un crecimiento sostenido y responsable.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- Fin Misión y Visión-->
+ <!--Lista-->
+</br>
+</br>
+<h1>Información Esencial para Pasajeros de Avianca</h1>
+<p style="text-align: center;">Conoce los aspectos clave sobre nuestros servicios y políticas para que tu experiencia de viaje sea más tranquila y segura.</p>
+<ol class="list-group list-group-numbered">
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Retrasos de Vuelos:</div>
+      Los retrasos son una de las principales fuentes de frustración para los pasajeros. Incluir un texto sobre cómo Avianca maneja los retrasos, ofrece actualizaciones y apoyo a los pasajeros podría ser relevante.
+    </div>
+    <span class="badge text-bg-primary rounded-pill">Ir</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Compensaciones y Reembolsos:</div>
+      En caso de que tu vuelo sea cancelado o experimentes un problema significativo con nuestro servicio, Avianca tiene políticas claras para ofrecer compensaciones o reembolsos. Contacta a nuestro equipo de atención al cliente para conocer tus opciones y resolver cualquier inconveniente de manera justa.
+    </div>
+    <span class="badge text-bg-primary rounded-pill">Ir</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Servicio al Cliente:</div>
+      Avianca se enorgullece de ofrecer un servicio al cliente accesible y eficiente. Si necesitas asistencia, ya sea antes, durante, o después de tu vuelo, nuestro equipo está disponible para ayudarte a través de múltiples canales, incluyendo teléfono, chat en línea, y redes sociales.
+    </div>
+    <span class="badge text-bg-primary rounded-pill">Ir</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Equipaje Dañado o Extraviado:</div>
+      Sabemos lo importante que es tu equipaje. Si has experimentado daños o la pérdida de tu equipaje, te recomendamos reportarlo de inmediato a nuestro equipo de servicio al cliente en el aeropuerto o a través de nuestros canales en línea. Trabajaremos para resolver el problema y devolverte tus pertenencias en las mejores condiciones.
+    </div>
+    <span class="badge text-bg-primary rounded-pill">Ir</span>
+  </li>
+  <li class="list-group-item d-flex justify-content-between align-items-start">
+    <div class="ms-2 me-auto">
+      <div class="fw-bold">Accesibilidad y Asistencia Especial:</div>
+      En Avianca, nos comprometemos a brindar un viaje seguro y cómodo para todos nuestros pasajeros, incluyendo aquellos que requieren asistencia especial. Ofrecemos servicios de accesibilidad, como sillas de ruedas y asistencia durante el embarque, para asegurarnos de que tu experiencia sea lo más cómoda posible.
+    </div>
+    <span class="badge text-bg-primary rounded-pill">Ir</span>
+  </li>
+</ol>
+<!--fin Lista-->
+    <!--Contactanos-->
+</br>
+</br>
+</br>
+</br>
+    <section id="contacto">
+      <div class="containes">
+        <div class="row">
+          <div class="col text-center">
+            <h1>Contacta Con La Mejor Aerolinea</h1>
+            <p>Tus Dudas Las Solucionaremos</p>
+          </div>
+        </div>
+        <form class="row g-3">
+          <div class="col-md-4">
+            <label for="validationDefault01" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="validationDefault01" placeholder="Nombre" value="" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefault02" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="validationDefault02" placeholder="Apellido" value="" required>
+          </div>
+          <div class="col-md-4">
+            <label for="validationDefaultUsername" class="form-label">Usuario</label>
+            <div class="input-group">
+              <span class="input-group-text" id="inputGroupPrepend2">@</span>
+              <input type="text" class="form-control" id="validationDefaultUsername" placeholder="Usuario" aria-describedby="inputGroupPrepend2" required>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <label for="validationDefault07" class="form-label">Contraseña</label>
+            <input type="text" class="form-control" id="validationDefault07" required  placeholder="Contraseña">
+          </div>
+          <div class="col-md-6">
+            <label for="validationDefault08" class="form-label">Dirección</label>
+            <input type="text" class="form-control" id="validationDefault08" required placeholder="Dirección">
+          </div>
+          <div class="col-md-6">
+            <label for="validationDefault03" class="form-label">Ciudad</label>
+            <input type="text" class="form-control" id="validationDefault03" required placeholder="Ciudad">
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault05" class="form-label" style="margin-left: 100px;">Departamentos</label>
+            <select class="form-select" id="validationDefault05" required>
+              <option selected disabled value=""></option>
+              <option>Francisco Morazán</option>
+              <option>Cortés</option>
+              <option>Atlántida</option>
+              <option>Colón</option>
+              <option>Yoro</option>
+              <option>Olancho</option>
+              <option>Santa Bárbara</option>
+              <option>Choluteca</option>
+              <option>Valle</option>
+              <option>Intibucá</option>
+              <option>Lempira</option>
+              <option>Ocotepeque</option>
+              <option>La Paz</option>
+              <option>Copán</option>
+              <option>El Paraíso</option>
+              <option>Gracias a Dios</option>
+              <option>Islas de la Bahía</option>
+              <option>Comayagua</option>
+            </select>
+          </div>
+          <div class="col-md-3">
+            <label for="validationDefault06" class="form-label" style="margin-left: 130px;">Sexo</label>
+            <select class="form-select" id="validationDefault06" required>
+              <option selected disabled value=""></option>
+              <option>Masculino</option>
+              <option>Femenino</option>
+              <option>Otro</option>
+            </select>
+          </div>
+          <div class="col-12">
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="5" placeholder="Haz tus consultas"></textarea>
+          </br>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+              <label class="form-check-label" for="invalidCheck2">
+                Acepto los términos y condiciones
+              </label>
+            </div>
+          </div>
+          <div class="col-12">
+            <button class="btn btn-primary" type="submit" style="width: 100%;">Enviar</button>
+          </div>
+        </form>
+    </section>
+    <!--Fin contactanos-->
+    <!---footer-->
+  </br>
+</br>
+<div id="footer" class="text-center">
+  <div class="container">
+      <div class="row">
+          <div class="col-12 col-lg">
+              <a href="#">Preguntas Frecuentes</a>
+          </div>
+          <div class="col-12 col-lg">
+              <a href="#">Contáctenos</a>
+          </div>
+          <div class="col-12 col-lg">
+              <a href="#">Noticias Avianca</a>
+          </div>
+          <div class="col-12 col-lg">
+              <a href="#">Eventos y Conferencias</a>
+          </div>
+          <div class="col-12 col-lg">
+              <a href="#">Información de Aeropuertos</a>
+          </div>
+          <div class="col-12 col-lg">
+              <a href="#">Términos y Condiciones</a>
+          </div>
+          <div class="col-12 col-lg">
+              <a href="#">Política de Privacidad</a>
+          </div>
+      </div>
+  </div>
+</div>
+<!--fin footer-->
+    <script src="bootstrap/js/bootstrap.bundle.min.js"  ></script>
+  </body>
+</html>

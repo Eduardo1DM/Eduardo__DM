@@ -1,0 +1,109 @@
+nav img{
+    width: 80px;
+}
+nav .text-Aerolineas{
+    color: red;
+}
+#principal img{
+    max-height: 70vh;
+    object-fit: cover;
+}
+#principal{
+    position: relative;
+}
+#principal #contenido{
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 100%;
+    color: white;
+}
+#principal .container,#principal .row{
+    width: 100%;
+    height: 100%;   
+}
+#footer{
+    background-color: grey;  
+}
+#footer a{
+    text-decoration: none;
+    color: white;
+}
+.caja, .caja1 {
+    background-color: #FF3333;
+    color: white;
+    padding: 30px;
+    width: 100%;
+    box-sizing: border-box; 
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caja, .caja1 {
+    flex: 1 1 100%;
+}
+
+h1{
+    text-align: center;
+}
+.card {
+    flex-direction: column;
+    height: 100%;
+  }
+  .card-img-top {
+    height: 200px;
+    object-fit: cover;
+  }
+  .card-body {
+    flex-grow: 1;
+    flex-direction: column;
+  }
+  .card-title {
+    font-size: 20px; 
+    margin-bottom: 16px;
+  }
+  .card-text {
+    flex-grow: 1;
+    margin-bottom: 16px;
+  }  
+  .slider-container {
+    position: relative;
+    width: 100%;
+  }
+  .ticks {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 20px; 
+    width: 100%;
+    padding: 0 12px; 
+    box-sizing: border-box;
+  }
+  .ticks span {
+    font-size: 12px; 
+  }
+  .custom-slider-container {
+    position: relative;
+    width: 100%;
+    padding: 0 20px;
+}
+.tick {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5px;
+}
+.tick span {
+    font-size: 14px;
+    white-space: nowrap;
+}
+.altura {
+  width: 100%;
+  height: auto;
+  max-height: 400px; 
+  object-fit: cover; 
+}
